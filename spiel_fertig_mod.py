@@ -9,6 +9,9 @@ richtig = 0
 #start_time = 0
 # 2: Anzahl Aufgaben
 anzahl = -1
+
+#Intro
+print("Rechentest")
 while anzahl<0 or anzahl>10:
     try:
         print("Wieviele Aufgaben (1 bis 10):")
