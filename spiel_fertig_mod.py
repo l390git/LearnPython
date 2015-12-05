@@ -11,7 +11,7 @@ richtig = 0
 anzahl = -1
 
 #Intro
-print("Rechentest")
+print("====== Rechentest ========")
 while anzahl<0 or anzahl>10:
     try:
         print("Wieviele Aufgaben (1 bis 10):")
