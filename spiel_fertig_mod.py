@@ -20,8 +20,7 @@ while anzahl<0 or anzahl>10:
 # 4: Schleife mit "anzahl" Aufgaben
 for aufgabe in range(1,anzahl+1):
     # 5: Operatorauswahl
-    #opzahl = random.randint(1,4)
-    opzahl = 2
+    opzahl = random.randint(1,4)
     # 6: Operandenauswahl
     if(opzahl == 1):
         a = random.randint(1,30)
