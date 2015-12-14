@@ -1,5 +1,9 @@
 #Convert inch in cm
 #convert factor inch to cm
+
 factor=2.54
+
+#heading
+print("{0:>5}{1:>8}".format("inch","cm"))
 for inch in range(15,45,5):
-   print(inch,"inch = ",inch*factor,"cm")
+   print("{0:>5.2f}{1:8.2f}".format(inch,inch*factor))
