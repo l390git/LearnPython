@@ -2,7 +2,7 @@
 import random
 import Zahlenspiel_with_modules as zwm
 random.seed()
-#Init Variables
+#Init Variables here
 zahl = 0
 versuch = 0
 
