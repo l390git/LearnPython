@@ -2,7 +2,7 @@
 import random
 random.seed()
 
-# 2: Anzahl Aufgaben (test)
+# 2: Anzahl Aufgaben 
 anzahl = -1
 while anzahl<0 or anzahl>10:
     try:
