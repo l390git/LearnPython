@@ -1,3 +1,3 @@
 print 'HelloWorld.'
 print 'Noch ein HelloWorld.'
-print 'Steffen and Sandra'
+print 'Steffen, Sandra, Ella und Charlotte'
