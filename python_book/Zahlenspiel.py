@@ -14,6 +14,7 @@ def aufgabe():
     return erg
 
 def kommentar(eingabezahl, ergebnis):
+    versuch = versuch + 1
     if eingabezahl == ergebnis:
         print(eingabezahl, "ist richtig !")
     else:
@@ -22,7 +23,7 @@ c = aufgabe()
 
 #Eingabe
 while zahl != c:
-    versuch = versuch + 1
+    #versuch = versuch + 1
     #Eingabe
     print("Bitte eine Zahl eingeben:")
     z = input()
