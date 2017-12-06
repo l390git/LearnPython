@@ -12,15 +12,18 @@ b = random.randint(1,10)
 # Berechung
 c = a + b
 print("Aufgabe:", a, "+", b)
+#Schleife mit 4 durchläufen
+for i in range(4):
+    #Eingabe
+    print("Bitte geben Sie eine Zahl ein:")
+    z=input()
+    zahl=int(z)
+    #Verzweigung
+    if zahl == c:
+        print("Zahl ist richtig")
+        break
+    else:
+        print("Zahl ist falsch")
 
-#Eingabe
-print("Bitte geben Sie eine Zahl ein:")
-z=input()
-zahl=int(z)
-
-#Verzweigung
-if zahl == c:
-    print("Zahl ist richtig")
-else:
-    print("Zahl ist falsch")
-    print("Ergebnis:", c)
+#Ende
+print("Ergebnis:", c)
