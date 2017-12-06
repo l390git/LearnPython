@@ -11,17 +11,9 @@ b = random.randint(1,10)
 
 # Berechung
 c = a + b
-
-#Init Zahl
-zahl=c+1
-
-#Init Versuch
-versuch=0
-
 print("Aufgabe:", a, "+", b)
 #Schleife mit 4 durchläufen
-while zahl != c:
-    versuch=versuch+1
+for i in range(1,10):
     #Eingabe
     print("Bitte geben Sie eine Zahl ein:")
     z=input()
@@ -35,4 +27,4 @@ while zahl != c:
 
 #Ende
 print("Ergebnis:", c)
-print("Anzahl der Versuche:",versuch)
+print("Anzahl der Versuche:", i)
