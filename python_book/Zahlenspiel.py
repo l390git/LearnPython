@@ -6,7 +6,6 @@ import os
 random.seed()
 
 #Init Variables
-fehler = 1
 versuch=0
 
 #Clear Screen
@@ -26,14 +25,13 @@ print("Aufgabe:", a, "+", b)
 while zahl != c:
     versuch=versuch+1
     #Eingabe
-    while fehler == 1:
-        print("Bitte geben Sie eine Zahl ein:")
-        z=input()
-        try:
-            zahl=int(z)
-            fehler = 0
-        except:
-            print("Sie haben keine ganze Zahl eingegeben")
+    print("Bitte geben Sie eine Zahl ein:")
+    z=input()
+    try:
+        zahl=int(z)
+    except:
+        print("Sie haben keine ganze Zahl eingegeben")
+        continue
 
     #Verzweigung
     if zahl == c:
@@ -41,7 +39,6 @@ while zahl != c:
         break
     else:
         print("Zahl ist falsch")
-    fehler = 1
 
 #Ende
 print("Ergebnis:", c)
