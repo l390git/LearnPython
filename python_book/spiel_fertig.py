@@ -21,8 +21,8 @@ for aufgabe in range(1,anzahl+1):
 
     # 6: Operandenauswahl
     if(opzahl == 1):
-        a = random.randint(10,30)
-        b = random.randint(10,30)
+        a = random.randint(1,30)
+        b = random.randint(1,30)
         op = "+"
         c = a + b
     elif(opzahl == 2):
