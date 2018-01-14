@@ -1,4 +1,5 @@
 # 1: Zufallsgenerator
+# Atom Git test
 import random
 random.seed()
 
