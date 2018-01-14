@@ -1,4 +1,5 @@
 # 1: Zufallsgenerator
+#######
 import random
 random.seed()
 
