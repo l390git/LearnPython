@@ -1,4 +1,5 @@
 #Umwandlung Brutto in Netto
+kurs=1
 
 #Eingaben
 #Gehalt
@@ -11,15 +12,19 @@ print("Steuersatz:")
 z=input()
 steuersatz=float(z)
 
-#Umrechnugskurz in €
-print("Umrechnungskurs in Euro:")
+print("Gehalt ist in einer Fremdwährung? (y/n)")
 z=input()
-kurs=float(z)
+
+if z in "Yy":
+    #Umrechnugskurz in €
+    print("Umrechnungskurs in Euro:")
+    z=input()
+    kurs=float(z)
 
 
 #Ausgabe
 print("Bruttogehalt:", brutto)
 print("Steuersatz:", steuersatz,"%")
 print("Steuer:",brutto*steuersatz/100)
-print("Netto in S-Dollar:",brutto-(brutto*steuersatz/100))
-print("Netto Euro:",(brutto-(brutto*steuersatz/100))*kurs)
+print("Netto in Fremdwährung:",brutto-(brutto*steuersatz/100))
+print("Netto in Euro:",(brutto-(brutto*steuersatz/100))*kurs)
