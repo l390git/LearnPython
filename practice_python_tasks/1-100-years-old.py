@@ -11,7 +11,9 @@ age = 0
 os.system('clear')
 
 # State what this program is about
-print("This little program will ask for your name and age and tell you in which year you will turn 100!")
+print("This little program will ask for your name and age and 
+       tell you in which year you will turn 100!")
+
 
 # Input name and age
 print("What is your name:")
